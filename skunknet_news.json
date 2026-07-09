@@ -1,0 +1,33 @@
+﻿{
+  "schemaVersion": 2,
+  "generatedAtUtc": "2026-07-09T10:00:00Z",
+  "generator": "sample-seed",
+  "stats": { "feedsOk": 1, "feedsFailed": 0, "articleFetches": 5, "counts": { "Breaking": 2, "Business": 2, "Sports": 2, "Gaming_Tech": 2, "Entertainment": 2 } },
+  "Breaking": [
+    {"title": "Island Alert: Global Markets Brace for Policy Shift", "text": "World leaders signal coordinated action as markets digest overnight moves. Analysts say the next 48 hours will set the tone for risk assets across major exchanges.\n\nSkunkNet Wire will continue monitoring developments as they break.", "description": "World leaders signal coordinated action as markets digest overnight moves.", "source_url": "https://example.com/breaking-1", "category": "Breaking", "author": "SkunkNet Wire - sample", "breaking": true, "publishedUnix": 1783589014, "source": "sample"},
+    {"title": "Emergency Services Mobilise After Coastal Storm Surge", "text": "Coastal communities are on high alert after overnight storm surges damaged harbour infrastructure. Authorities urged residents to avoid flooded roads while crews restore power.", "description": "Coastal communities are on high alert after overnight storm surges.", "source_url": "https://example.com/breaking-2", "category": "Breaking", "author": "SkunkNet Wire - sample", "breaking": true, "publishedUnix": 1783589414, "source": "sample"}
+  ],
+  "Business": [
+    {"title": "Central Bank Holds Rates as Inflation Cools", "text": "Policymakers kept benchmark rates unchanged, citing cooler inflation prints and a desire to assess labour-market data before the next meeting.", "description": "Policymakers kept benchmark rates unchanged amid cooler inflation.", "source_url": "https://example.com/finance-1", "category": "Business", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783589814, "source": "sample"},
+    {"title": "Tech Earnings Lift Equity Futures", "text": "Futures climbed after a cluster of technology firms beat revenue estimates, with chipmakers leading the advance.", "description": "Futures climbed after technology firms beat revenue estimates.", "source_url": "https://example.com/finance-2", "category": "Business", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783590214, "source": "sample"}
+  ],
+  "Sports": [
+    {"title": "Derby Thriller Ends in Last-Minute Equaliser", "text": "A packed stadium erupted as the visitors snatched a point in stoppage time, keeping both sides in the title conversation.", "description": "A packed stadium erupted as the visitors snatched a point in stoppage time.", "source_url": "https://example.com/sports-1", "category": "Sports", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783590614, "source": "sample"},
+    {"title": "Grand Slam Favourite Advances in Straight Sets", "text": "The top seed needed just 78 minutes to book a quarter-final berth, mixing heavy groundstrokes with clinical serving.", "description": "The top seed booked a quarter-final berth in straight sets.", "source_url": "https://example.com/sports-2", "category": "Sports", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591014, "source": "sample"}
+  ],
+  "Gaming_Tech": [
+    {"title": "Chipmaker Unveils Next-Gen AI Accelerator", "text": "The company said its new silicon doubles inference throughput for large language models while cutting power draw in data-centre racks.", "description": "New silicon doubles inference throughput for large language models.", "source_url": "https://example.com/tech-1", "category": "Gaming_Tech", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591414, "source": "sample"},
+    {"title": "Studio Delays Flagship Title to Polish Multiplayer", "text": "Developers cited online stability work as the reason for a six-week slip, promising a smoother launch window.", "description": "Developers cited online stability work for a six-week slip.", "source_url": "https://example.com/tech-2", "category": "Gaming_Tech", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591814, "source": "sample"}
+  ],
+  "Entertainment": [
+    {"title": "Streaming Giant Greenlights Prestige Drama Series", "text": "The eight-episode run will film across three continents, with a celebrated showrunner attached and a late-year premiere targeted.", "description": "An eight-episode prestige drama is headed to a late-year premiere.", "source_url": "https://example.com/ent-1", "category": "Entertainment", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783592214, "source": "sample"},
+    {"title": "Arena Tour Dates Sell Out in Minutes", "text": "Fans crashed ticketing apps as the first leg of a global tour went on sale, prompting promoters to add second nights in key cities.", "description": "Fans crashed ticketing apps as a global tour went on sale.", "source_url": "https://example.com/ent-2", "category": "Entertainment", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783592614, "source": "sample"}
+  ],
+  "BreakingNewsTab": [],
+  "FinanceTab": [],
+  "SportsTab": [],
+  "TechnologyTab": [],
+  "EntertainmentTab": [],
+  "GeneralTab": [],
+  "articles": []
+}

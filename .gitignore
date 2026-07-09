@@ -1,0 +1,7 @@
+# Ignore local venv / caches; keep the published news matrix.
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
