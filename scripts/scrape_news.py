@@ -40,7 +40,8 @@ MAX_PER_TAB = 12
 # How many RSS entries to attempt per feed before moving on.
 ENTRIES_PER_FEED = 12
 # Hard ceiling on total article download attempts (Actions minute budget).
-MAX_ARTICLE_FETCHES = 140
+# Keep headroom so late-category feeds (Entertainment) still get a turn.
+MAX_ARTICLE_FETCHES = 200
 ARTICLE_TIMEOUT_SEC = 18
 USER_AGENT = (
     "Mozilla/5.0 (compatible; SkunkNetNewsBot/1.0; +https://github.com/)"
@@ -70,33 +71,34 @@ ALIAS_KEYS = {
 
 FEEDS: list[dict[str, Any]] = [
     # Breaking / world
-    {"url": "http://feeds.bbci.co.uk/news/rss.xml", "hint": TAB_BREAKING},
-    {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "hint": TAB_BREAKING},
+    {"url": "https://feeds.bbci.co.uk/news/rss.xml", "hint": TAB_BREAKING},
+    {"url": "https://feeds.bbci.co.uk/news/world/rss.xml", "hint": TAB_BREAKING},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "hint": TAB_BREAKING},
-    {"url": "https://feeds.reuters.com/reuters/topNews", "hint": TAB_BREAKING},
     {"url": "https://www.theguardian.com/world/rss", "hint": TAB_BREAKING},
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml", "hint": TAB_BREAKING},
     # Finance
-    {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "hint": TAB_FINANCE},
+    {"url": "https://feeds.bbci.co.uk/news/business/rss.xml", "hint": TAB_FINANCE},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "hint": TAB_FINANCE},
-    {"url": "https://feeds.reuters.com/reuters/businessNews", "hint": TAB_FINANCE},
     {"url": "https://www.theguardian.com/business/rss", "hint": TAB_FINANCE},
     {"url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "hint": TAB_FINANCE},
+    {"url": "https://feeds.bbci.co.uk/news/business/economy/rss.xml", "hint": TAB_FINANCE},
     # Sports
-    {"url": "http://feeds.bbci.co.uk/sport/rss.xml", "hint": TAB_SPORTS},
+    {"url": "https://feeds.bbci.co.uk/sport/rss.xml", "hint": TAB_SPORTS},
     {"url": "https://www.espn.com/espn/rss/news", "hint": TAB_SPORTS},
     {"url": "https://www.theguardian.com/sport/rss", "hint": TAB_SPORTS},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml", "hint": TAB_SPORTS},
     # Technology
-    {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "hint": TAB_TECH},
+    {"url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "hint": TAB_TECH},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "hint": TAB_TECH},
     {"url": "https://www.theguardian.com/technology/rss", "hint": TAB_TECH},
     {"url": "https://feeds.arstechnica.com/arstechnica/index", "hint": TAB_TECH},
     {"url": "https://www.theverge.com/rss/index.xml", "hint": TAB_TECH},
     # Entertainment
-    {"url": "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "hint": TAB_ENTERTAINMENT},
+    {"url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "hint": TAB_ENTERTAINMENT},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml", "hint": TAB_ENTERTAINMENT},
     {"url": "https://www.theguardian.com/uk/culture/rss", "hint": TAB_ENTERTAINMENT},
-    {"url": "https://www.hollywood.co.uk/rss", "hint": TAB_ENTERTAINMENT},
+    {"url": "https://www.theguardian.com/film/rss", "hint": TAB_ENTERTAINMENT},
+    {"url": "https://www.theguardian.com/music/rss", "hint": TAB_ENTERTAINMENT},
 ]
 
 # Keyword buckets (title + keywords + tags + summary)
@@ -470,12 +472,30 @@ def run() -> int:
     feed_ok = 0
     feed_fail = 0
 
-    print(f"[SkunkNews] Starting extraction → {OUT_PATH}", flush=True)
+    print(f"[SkunkNews] Starting extraction -> {OUT_PATH}", flush=True)
 
+    # Round-robin feeds by category so Entertainment is not starved by Breaking.
+    feeds_by_hint: dict[str, list[dict[str, Any]]] = {t: [] for t in ALL_TABS}
+    other_feeds: list[dict[str, Any]] = []
     for feed in FEEDS:
+        h = feed.get("hint")
+        if h in feeds_by_hint:
+            feeds_by_hint[h].append(feed)
+        else:
+            other_feeds.append(feed)
+    ordered_feeds: list[dict[str, Any]] = []
+    max_len = max((len(v) for v in feeds_by_hint.values()), default=0)
+    for i in range(max_len):
+        for t in ALL_TABS:
+            bucket = feeds_by_hint[t]
+            if i < len(bucket):
+                ordered_feeds.append(bucket[i])
+    ordered_feeds.extend(other_feeds)
+
+    for feed in ordered_feeds:
         # Stop early if every tab is already full.
         if all(len(tabs[t]) >= MAX_PER_TAB for t in ALL_TABS):
-            print("[SkunkNews] All tabs at capacity — stopping.", flush=True)
+            print("[SkunkNews] All tabs at capacity - stopping.", flush=True)
             break
         if fetches >= MAX_ARTICLE_FETCHES:
             print("[SkunkNews] Fetch budget exhausted.", flush=True)
@@ -483,6 +503,10 @@ def run() -> int:
 
         url = feed["url"]
         hint = feed.get("hint")
+        # Don't burn the fetch budget on a tab that is already full.
+        if hint in tabs and len(tabs[hint]) >= MAX_PER_TAB:
+            print(f"[SkunkNews] Skip feed (tab full: {hint}): {url}", flush=True)
+            continue
         print(f"[SkunkNews] Feed: {url}", flush=True)
         try:
             parsed = feedparser.parse(url, agent=USER_AGENT)
@@ -500,6 +524,8 @@ def run() -> int:
         for entry in parsed.entries[:ENTRIES_PER_FEED]:
             if fetches >= MAX_ARTICLE_FETCHES:
                 break
+            if hint in tabs and len(tabs[hint]) >= MAX_PER_TAB:
+                break
             link = (entry.get("link") or "").strip()
             if not link.startswith("http"):
                 continue
@@ -508,16 +534,10 @@ def run() -> int:
             if fp in seen:
                 continue
 
-            # Skip if the hinted tab is already full and we have no strong reclass need.
-            if hint in tabs and len(tabs[hint]) >= MAX_PER_TAB:
-                # Still allow if other tabs need fill — classify after extract.
-                if all(len(tabs[t]) >= MAX_PER_TAB for t in ALL_TABS):
-                    break
-
             fetches += 1
             art = extract_article(link, cfg)
             if art is None:
-                # Never publish one-line RSS stubs — only full extracted stories.
+                # Never publish one-line RSS stubs - only full extracted stories.
                 print(f"  - skip (no full story): {title_hint[:70]}", flush=True)
                 continue
 
@@ -528,7 +548,7 @@ def run() -> int:
             summary = clean_title(entry.get("summary") or "", 500)
             tab = classify_tab(title, summary + " " + text[:400], keywords, tags, hint)
             if len(tabs[tab]) >= MAX_PER_TAB:
-                # Try to place into feed hint if different and has room.
+                # Prefer the feed's own tab when the classifier overfills another bucket.
                 if hint in tabs and hint != tab and len(tabs[hint]) < MAX_PER_TAB:
                     tab = hint
                 else:
@@ -550,7 +570,7 @@ def run() -> int:
                 continue
             seen.add(fp2)
             tabs[tab].append(item)
-            print(f"  + full ({len(item['text'])} chars) → {tab}: {title[:70]}", flush=True)
+            print(f"  + full ({len(item['text'])} chars) -> {tab}: {title[:70]}", flush=True)
             time.sleep(0.35)  # polite pacing
 
     # Guide-style alias bags + canonical tabs.

@@ -25,6 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
+          # Pin 3.11 — newspaper4k/lxml ship manylinux wheels here (avoid 3.13+ surprises).
           python-version: "3.11"
           cache: pip
           cache-dependency-path: requirements.txt
@@ -37,6 +38,8 @@ jobs:
 
       - name: Run Extraction Engine
         run: python scripts/scrape_news.py
+        # Exit 2 = zero articles; treat as soft failure so the job is red but prior JSON stays.
+        continue-on-error: false
 
       - name: Commit and Push Fresh Matrix
         run: |
