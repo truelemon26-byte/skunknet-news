@@ -30,6 +30,16 @@ https://raw.githubusercontent.com/<USER>/<REPO>/main/skunknet_news.json
 - Cron: every **12 hours** (`0 */12 * * *`)
 - Manual: Actions → Sync Categorized SkunkNet News → Run workflow
 
+If Actions jobs fail instantly with **no steps** / `runner_id: 0`, GitHub has usually **locked the account for billing**. Fix billing at https://github.com/settings/billing — until then, run locally:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python scripts/scrape_news.py
+git add skunknet_news.json && git commit -m "Manual news sync" && git push
+```
+
 ## JSON shape (plugin reads these first)
 
 | Key | SkunkOS News tab (UI label) |
