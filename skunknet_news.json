@@ -1,33 +1,598 @@
-﻿{
-  "schemaVersion": 2,
-  "generatedAtUtc": "2026-07-09T10:00:00Z",
-  "generator": "sample-seed",
-  "stats": { "feedsOk": 1, "feedsFailed": 0, "articleFetches": 5, "counts": { "Breaking": 2, "Business": 2, "Sports": 2, "Gaming_Tech": 2, "Entertainment": 2 } },
-  "Breaking": [
-    {"title": "Island Alert: Global Markets Brace for Policy Shift", "text": "World leaders signal coordinated action as markets digest overnight moves. Analysts say the next 48 hours will set the tone for risk assets across major exchanges.\n\nSkunkNet Wire will continue monitoring developments as they break.", "description": "World leaders signal coordinated action as markets digest overnight moves.", "source_url": "https://example.com/breaking-1", "category": "Breaking", "author": "SkunkNet Wire - sample", "breaking": true, "publishedUnix": 1783589014, "source": "sample"},
-    {"title": "Emergency Services Mobilise After Coastal Storm Surge", "text": "Coastal communities are on high alert after overnight storm surges damaged harbour infrastructure. Authorities urged residents to avoid flooded roads while crews restore power.", "description": "Coastal communities are on high alert after overnight storm surges.", "source_url": "https://example.com/breaking-2", "category": "Breaking", "author": "SkunkNet Wire - sample", "breaking": true, "publishedUnix": 1783589414, "source": "sample"}
-  ],
-  "Business": [
-    {"title": "Central Bank Holds Rates as Inflation Cools", "text": "Policymakers kept benchmark rates unchanged, citing cooler inflation prints and a desire to assess labour-market data before the next meeting.", "description": "Policymakers kept benchmark rates unchanged amid cooler inflation.", "source_url": "https://example.com/finance-1", "category": "Business", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783589814, "source": "sample"},
-    {"title": "Tech Earnings Lift Equity Futures", "text": "Futures climbed after a cluster of technology firms beat revenue estimates, with chipmakers leading the advance.", "description": "Futures climbed after technology firms beat revenue estimates.", "source_url": "https://example.com/finance-2", "category": "Business", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783590214, "source": "sample"}
-  ],
-  "Sports": [
-    {"title": "Derby Thriller Ends in Last-Minute Equaliser", "text": "A packed stadium erupted as the visitors snatched a point in stoppage time, keeping both sides in the title conversation.", "description": "A packed stadium erupted as the visitors snatched a point in stoppage time.", "source_url": "https://example.com/sports-1", "category": "Sports", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783590614, "source": "sample"},
-    {"title": "Grand Slam Favourite Advances in Straight Sets", "text": "The top seed needed just 78 minutes to book a quarter-final berth, mixing heavy groundstrokes with clinical serving.", "description": "The top seed booked a quarter-final berth in straight sets.", "source_url": "https://example.com/sports-2", "category": "Sports", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591014, "source": "sample"}
-  ],
-  "Gaming_Tech": [
-    {"title": "Chipmaker Unveils Next-Gen AI Accelerator", "text": "The company said its new silicon doubles inference throughput for large language models while cutting power draw in data-centre racks.", "description": "New silicon doubles inference throughput for large language models.", "source_url": "https://example.com/tech-1", "category": "Gaming_Tech", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591414, "source": "sample"},
-    {"title": "Studio Delays Flagship Title to Polish Multiplayer", "text": "Developers cited online stability work as the reason for a six-week slip, promising a smoother launch window.", "description": "Developers cited online stability work for a six-week slip.", "source_url": "https://example.com/tech-2", "category": "Gaming_Tech", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783591814, "source": "sample"}
-  ],
-  "Entertainment": [
-    {"title": "Streaming Giant Greenlights Prestige Drama Series", "text": "The eight-episode run will film across three continents, with a celebrated showrunner attached and a late-year premiere targeted.", "description": "An eight-episode prestige drama is headed to a late-year premiere.", "source_url": "https://example.com/ent-1", "category": "Entertainment", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783592214, "source": "sample"},
-    {"title": "Arena Tour Dates Sell Out in Minutes", "text": "Fans crashed ticketing apps as the first leg of a global tour went on sale, prompting promoters to add second nights in key cities.", "description": "Fans crashed ticketing apps as a global tour went on sale.", "source_url": "https://example.com/ent-2", "category": "Entertainment", "author": "SkunkNet Wire - sample", "breaking": false, "publishedUnix": 1783592614, "source": "sample"}
-  ],
-  "BreakingNewsTab": [],
-  "FinanceTab": [],
-  "SportsTab": [],
-  "TechnologyTab": [],
-  "EntertainmentTab": [],
-  "GeneralTab": [],
-  "articles": []
+{
+    "schemaVersion":  2,
+    "generatedAtUtc":  "2026-07-09T10:32:04Z",
+    "generator":  "sample-seed-10-per-tab",
+    "stats":  {
+                  "articleFetches":  50,
+                  "counts":  {
+                                 "Entertainment":  10,
+                                 "Business":  10,
+                                 "Breaking":  10,
+                                 "Sports":  10,
+                                 "Gaming_Tech":  10
+                             },
+                  "feedsFailed":  0,
+                  "feedsOk":  5
+              },
+    "Breaking":  [
+                     {
+                         "title":  "Island Alert: Global Markets Brace for Policy Shift",
+                         "text":  "Island Alert: Global Markets Brace for Policy Shift\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Island Alert: Global Markets Brace for Policy Shift — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-1",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783592824,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Emergency Services Mobilise After Coastal Storm Surge",
+                         "text":  "Emergency Services Mobilise After Coastal Storm Surge\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Emergency Services Mobilise After Coastal Storm Surge — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-2",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783592524,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Diplomatic Talks Resume After Overnight Escalation",
+                         "text":  "Diplomatic Talks Resume After Overnight Escalation\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Diplomatic Talks Resume After Overnight Escalation — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-3",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783592224,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Major Airport Disruptions Follow System Outage",
+                         "text":  "Major Airport Disruptions Follow System Outage\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Major Airport Disruptions Follow System Outage — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-4",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783591924,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Rescue Teams Reach Isolated Mountain Communities",
+                         "text":  "Rescue Teams Reach Isolated Mountain Communities\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Rescue Teams Reach Isolated Mountain Communities — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-5",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783591624,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Government Issues Travel Advisory for Storm Corridor",
+                         "text":  "Government Issues Travel Advisory for Storm Corridor\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Government Issues Travel Advisory for Storm Corridor — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-6",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783591324,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Live Updates: Capital City Declares Temporary Curfew",
+                         "text":  "Live Updates: Capital City Declares Temporary Curfew\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Live Updates: Capital City Declares Temporary Curfew — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-7",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783591024,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "International Aid Flights Diverted to Regional Hub",
+                         "text":  "International Aid Flights Diverted to Regional Hub\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "International Aid Flights Diverted to Regional Hub — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-8",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783590724,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Power Grid Stabilises After Multi-State Blackout Scare",
+                         "text":  "Power Grid Stabilises After Multi-State Blackout Scare\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Power Grid Stabilises After Multi-State Blackout Scare — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-9",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783590424,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Security Sweep Clears Downtown After Suspicious Package",
+                         "text":  "Security Sweep Clears Downtown After Suspicious Package\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Security Sweep Clears Downtown After Suspicious Package — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/breaking-10",
+                         "category":  "Breaking",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  true,
+                         "publishedUnix":  1783590124,
+                         "source":  "sample"
+                     }
+                 ],
+    "Business":  [
+                     {
+                         "title":  "Central Bank Holds Rates as Inflation Cools",
+                         "text":  "Central Bank Holds Rates as Inflation Cools\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Central Bank Holds Rates as Inflation Cools — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-1",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783589824,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Tech Earnings Lift Equity Futures",
+                         "text":  "Tech Earnings Lift Equity Futures\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Tech Earnings Lift Equity Futures — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-2",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783589524,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Oil Prices Slip on Inventory Surprise",
+                         "text":  "Oil Prices Slip on Inventory Surprise\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Oil Prices Slip on Inventory Surprise — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-3",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783589224,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Retail Sales Beat Forecasts in Key Markets",
+                         "text":  "Retail Sales Beat Forecasts in Key Markets\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Retail Sales Beat Forecasts in Key Markets — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-4",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783588924,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Banking Sector Posts Stronger Loan Growth",
+                         "text":  "Banking Sector Posts Stronger Loan Growth\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Banking Sector Posts Stronger Loan Growth — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-5",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783588624,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Currency Markets Steady Ahead of Jobs Data",
+                         "text":  "Currency Markets Steady Ahead of Jobs Data\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Currency Markets Steady Ahead of Jobs Data — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-6",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783588324,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Startup Funding Rebounds in Second Quarter",
+                         "text":  "Startup Funding Rebounds in Second Quarter\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Startup Funding Rebounds in Second Quarter — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-7",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783588024,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Bond Yields Ease as Soft Landing Bets Rise",
+                         "text":  "Bond Yields Ease as Soft Landing Bets Rise\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Bond Yields Ease as Soft Landing Bets Rise — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-8",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783587724,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Manufacturing PMI Edges Back Into Expansion",
+                         "text":  "Manufacturing PMI Edges Back Into Expansion\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Manufacturing PMI Edges Back Into Expansion — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-9",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783587424,
+                         "source":  "sample"
+                     },
+                     {
+                         "title":  "Commodity Traders Watch Shipping Lane Delays",
+                         "text":  "Commodity Traders Watch Shipping Lane Delays\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                         "description":  "Commodity Traders Watch Shipping Lane Delays — sample wire brief for SkunkOS.",
+                         "source_url":  "https://example.com/business-10",
+                         "category":  "Business",
+                         "author":  "SkunkNet Wire - sample",
+                         "breaking":  false,
+                         "publishedUnix":  1783587124,
+                         "source":  "sample"
+                     }
+                 ],
+    "Sports":  [
+                   {
+                       "title":  "Derby Thriller Ends in Last-Minute Equaliser",
+                       "text":  "Derby Thriller Ends in Last-Minute Equaliser\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Derby Thriller Ends in Last-Minute Equaliser — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-1",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783586824,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Grand Slam Favourite Advances in Straight Sets",
+                       "text":  "Grand Slam Favourite Advances in Straight Sets\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Grand Slam Favourite Advances in Straight Sets — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-2",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783586524,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Title Contenders Trade Blows in Night Fixture",
+                       "text":  "Title Contenders Trade Blows in Night Fixture\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Title Contenders Trade Blows in Night Fixture — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-3",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783586224,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Transfer Window Buzz Intensifies Around Star Midfielder",
+                       "text":  "Transfer Window Buzz Intensifies Around Star Midfielder\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Transfer Window Buzz Intensifies Around Star Midfielder — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-4",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783585924,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Olympic Hopeful Breaks National Record in Trials",
+                       "text":  "Olympic Hopeful Breaks National Record in Trials\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Olympic Hopeful Breaks National Record in Trials — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-5",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783585624,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Coach Praises Squad Depth After Away Win",
+                       "text":  "Coach Praises Squad Depth After Away Win\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Coach Praises Squad Depth After Away Win — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-6",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783585324,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Injury Update Clouds Weekend Line-Up Plans",
+                       "text":  "Injury Update Clouds Weekend Line-Up Plans\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Injury Update Clouds Weekend Line-Up Plans — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-7",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783585024,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Underdogs Stun League Leaders in Cup Upset",
+                       "text":  "Underdogs Stun League Leaders in Cup Upset\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Underdogs Stun League Leaders in Cup Upset — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-8",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783584724,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Marathon Course Record Falls in City Race",
+                       "text":  "Marathon Course Record Falls in City Race\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Marathon Course Record Falls in City Race — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-9",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783584424,
+                       "source":  "sample"
+                   },
+                   {
+                       "title":  "Broadcast Deal Extends Live Coverage Package",
+                       "text":  "Broadcast Deal Extends Live Coverage Package\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                       "description":  "Broadcast Deal Extends Live Coverage Package — sample wire brief for SkunkOS.",
+                       "source_url":  "https://example.com/sports-10",
+                       "category":  "Sports",
+                       "author":  "SkunkNet Wire - sample",
+                       "breaking":  false,
+                       "publishedUnix":  1783584124,
+                       "source":  "sample"
+                   }
+               ],
+    "Gaming_Tech":  [
+                        {
+                            "title":  "Chipmaker Unveils Next-Gen AI Accelerator",
+                            "text":  "Chipmaker Unveils Next-Gen AI Accelerator\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Chipmaker Unveils Next-Gen AI Accelerator — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-1",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783583824,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Studio Delays Flagship Title to Polish Multiplayer",
+                            "text":  "Studio Delays Flagship Title to Polish Multiplayer\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Studio Delays Flagship Title to Polish Multiplayer — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-2",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783583524,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Open-Source Model Tops Independent Benchmark Suite",
+                            "text":  "Open-Source Model Tops Independent Benchmark Suite\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Open-Source Model Tops Independent Benchmark Suite — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-3",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783583224,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Cloud Provider Cuts Inference Pricing for Startups",
+                            "text":  "Cloud Provider Cuts Inference Pricing for Startups\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Cloud Provider Cuts Inference Pricing for Startups — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-4",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783582924,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Handheld Console Firmware Adds Performance Mode",
+                            "text":  "Handheld Console Firmware Adds Performance Mode\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Handheld Console Firmware Adds Performance Mode — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-5",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783582624,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Security Researchers Flag Critical Browser Flaw",
+                            "text":  "Security Researchers Flag Critical Browser Flaw\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Security Researchers Flag Critical Browser Flaw — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-6",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783582324,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Satellite Internet Expands Coverage Map Overnight",
+                            "text":  "Satellite Internet Expands Coverage Map Overnight\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Satellite Internet Expands Coverage Map Overnight — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-7",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783582024,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Esports League Confirms Season Schedule and Prize Pool",
+                            "text":  "Esports League Confirms Season Schedule and Prize Pool\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Esports League Confirms Season Schedule and Prize Pool — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-8",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783581724,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Robotics Firm Ships Warehouse Pilot Fleet",
+                            "text":  "Robotics Firm Ships Warehouse Pilot Fleet\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Robotics Firm Ships Warehouse Pilot Fleet — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-9",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783581424,
+                            "source":  "sample"
+                        },
+                        {
+                            "title":  "Developer Tools Update Speeds Local Build Times",
+                            "text":  "Developer Tools Update Speeds Local Build Times\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                            "description":  "Developer Tools Update Speeds Local Build Times — sample wire brief for SkunkOS.",
+                            "source_url":  "https://example.com/gaming_tech-10",
+                            "category":  "Gaming_Tech",
+                            "author":  "SkunkNet Wire - sample",
+                            "breaking":  false,
+                            "publishedUnix":  1783581124,
+                            "source":  "sample"
+                        }
+                    ],
+    "Entertainment":  [
+                          {
+                              "title":  "Streaming Giant Greenlights Prestige Drama Series",
+                              "text":  "Streaming Giant Greenlights Prestige Drama Series\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Streaming Giant Greenlights Prestige Drama Series — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-1",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783580824,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Arena Tour Dates Sell Out in Minutes",
+                              "text":  "Arena Tour Dates Sell Out in Minutes\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Arena Tour Dates Sell Out in Minutes — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-2",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783580524,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Festival Line-Up Adds Surprise Headliner",
+                              "text":  "Festival Line-Up Adds Surprise Headliner\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Festival Line-Up Adds Surprise Headliner — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-3",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783580224,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Box Office Climbs on Franchise Sequel Opening",
+                              "text":  "Box Office Climbs on Franchise Sequel Opening\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Box Office Climbs on Franchise Sequel Opening — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-4",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783579924,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Award Season Contenders Gather for Industry Preview",
+                              "text":  "Award Season Contenders Gather for Industry Preview\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Award Season Contenders Gather for Industry Preview — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-5",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783579624,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Documentary Series Explores Music Scene Revival",
+                              "text":  "Documentary Series Explores Music Scene Revival\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Documentary Series Explores Music Scene Revival — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-6",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783579324,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Studio Confirms Spin-Off With Returning Cast",
+                              "text":  "Studio Confirms Spin-Off With Returning Cast\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Studio Confirms Spin-Off With Returning Cast — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-7",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783579024,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Chart-Topping Album Returns for Anniversary Edition",
+                              "text":  "Chart-Topping Album Returns for Anniversary Edition\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Chart-Topping Album Returns for Anniversary Edition — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-8",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783578724,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Late-Night Host Announces Cross-Country Live Run",
+                              "text":  "Late-Night Host Announces Cross-Country Live Run\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Late-Night Host Announces Cross-Country Live Run — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-9",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783578424,
+                              "source":  "sample"
+                          },
+                          {
+                              "title":  "Critics Praise Breakout Performance in Indie Film",
+                              "text":  "Critics Praise Breakout Performance in Indie Film\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
+                              "description":  "Critics Praise Breakout Performance in Indie Film — sample wire brief for SkunkOS.",
+                              "source_url":  "https://example.com/entertainment-10",
+                              "category":  "Entertainment",
+                              "author":  "SkunkNet Wire - sample",
+                              "breaking":  false,
+                              "publishedUnix":  1783578124,
+                              "source":  "sample"
+                          }
+                      ],
+    "BreakingNewsTab":  [
+
+                        ],
+    "FinanceTab":  [
+
+                   ],
+    "SportsTab":  [
+
+                  ],
+    "TechnologyTab":  [
+
+                      ],
+    "EntertainmentTab":  [
+
+                         ],
+    "GeneralTab":  [
+
+                   ],
+    "articles":  [
+
+                 ]
 }

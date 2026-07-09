@@ -35,12 +35,12 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = ROOT / "skunknet_news.json"
 SCHEMA_VERSION = 2
 
-# Per-tab soft caps (plugin also clamps via MaxArticlesPerWireFeed).
-MAX_PER_TAB = 14
+# Per-tab target/cap — aim for 10+ stories in every SkunkOS News tab.
+MAX_PER_TAB = 12
 # How many RSS entries to attempt per feed before moving on.
-ENTRIES_PER_FEED = 8
+ENTRIES_PER_FEED = 12
 # Hard ceiling on total article download attempts (Actions minute budget).
-MAX_ARTICLE_FETCHES = 90
+MAX_ARTICLE_FETCHES = 140
 ARTICLE_TIMEOUT_SEC = 18
 USER_AGENT = (
     "Mozilla/5.0 (compatible; SkunkNetNewsBot/1.0; +https://github.com/)"
