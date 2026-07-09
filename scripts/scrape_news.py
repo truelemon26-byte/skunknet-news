@@ -249,6 +249,27 @@ def is_ad_or_chrome_line(line: str) -> bool:
     return False
 
 
+# Product/meta filler that must never ship as article body (seed regressions / bad merges).
+META_PARAGRAPH_MARKERS = (
+    "skunknet wire is publishing the full available narrative",
+    "not a truncated headline stub",
+    "in-game news reader can paginate the complete report",
+    "without ads, subscribe prompts, or promotional chrome",
+    "investigators and desk editors compiled the latest verified details overnight",
+)
+
+
+def is_meta_filler_paragraph(para: str) -> bool:
+    low = (para or "").strip().lower()
+    if not low:
+        return True
+    if any(m in low for m in META_PARAGRAPH_MARKERS):
+        return True
+    if low.startswith("sources familiar with the situation said developments remain fluid") and "licensed wire partners" in low:
+        return True
+    return False
+
+
 def clean_full_story(s: str | None, limit: int = MAX_STORY_CHARS) -> str:
     """Preserve paragraph structure; strip ads/chrome; keep long uncut reporting."""
     if not s:
@@ -265,6 +286,8 @@ def clean_full_story(s: str | None, limit: int = MAX_STORY_CHARS) -> str:
                 kept.append("")
             continue
         if is_ad_or_chrome_line(line):
+            continue
+        if is_meta_filler_paragraph(line):
             continue
         kept.append(line)
 
