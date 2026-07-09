@@ -1,598 +1,584 @@
 {
-    "schemaVersion":  2,
-    "generatedAtUtc":  "2026-07-09T10:32:04Z",
-    "generator":  "sample-seed-10-per-tab",
-    "stats":  {
-                  "articleFetches":  50,
-                  "counts":  {
-                                 "Entertainment":  10,
-                                 "Business":  10,
-                                 "Breaking":  10,
-                                 "Sports":  10,
-                                 "Gaming_Tech":  10
-                             },
-                  "feedsFailed":  0,
-                  "feedsOk":  5
-              },
-    "Breaking":  [
-                     {
-                         "title":  "Island Alert: Global Markets Brace for Policy Shift",
-                         "text":  "Island Alert: Global Markets Brace for Policy Shift\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Island Alert: Global Markets Brace for Policy Shift — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-1",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783592824,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Emergency Services Mobilise After Coastal Storm Surge",
-                         "text":  "Emergency Services Mobilise After Coastal Storm Surge\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Emergency Services Mobilise After Coastal Storm Surge — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-2",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783592524,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Diplomatic Talks Resume After Overnight Escalation",
-                         "text":  "Diplomatic Talks Resume After Overnight Escalation\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Diplomatic Talks Resume After Overnight Escalation — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-3",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783592224,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Major Airport Disruptions Follow System Outage",
-                         "text":  "Major Airport Disruptions Follow System Outage\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Major Airport Disruptions Follow System Outage — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-4",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783591924,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Rescue Teams Reach Isolated Mountain Communities",
-                         "text":  "Rescue Teams Reach Isolated Mountain Communities\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Rescue Teams Reach Isolated Mountain Communities — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-5",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783591624,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Government Issues Travel Advisory for Storm Corridor",
-                         "text":  "Government Issues Travel Advisory for Storm Corridor\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Government Issues Travel Advisory for Storm Corridor — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-6",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783591324,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Live Updates: Capital City Declares Temporary Curfew",
-                         "text":  "Live Updates: Capital City Declares Temporary Curfew\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Live Updates: Capital City Declares Temporary Curfew — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-7",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783591024,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "International Aid Flights Diverted to Regional Hub",
-                         "text":  "International Aid Flights Diverted to Regional Hub\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "International Aid Flights Diverted to Regional Hub — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-8",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783590724,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Power Grid Stabilises After Multi-State Blackout Scare",
-                         "text":  "Power Grid Stabilises After Multi-State Blackout Scare\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Power Grid Stabilises After Multi-State Blackout Scare — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-9",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783590424,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Security Sweep Clears Downtown After Suspicious Package",
-                         "text":  "Security Sweep Clears Downtown After Suspicious Package\n\nSkunkNet Wire sample body for the Breaking tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Security Sweep Clears Downtown After Suspicious Package — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/breaking-10",
-                         "category":  "Breaking",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  true,
-                         "publishedUnix":  1783590124,
-                         "source":  "sample"
-                     }
-                 ],
-    "Business":  [
-                     {
-                         "title":  "Central Bank Holds Rates as Inflation Cools",
-                         "text":  "Central Bank Holds Rates as Inflation Cools\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Central Bank Holds Rates as Inflation Cools — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-1",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783589824,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Tech Earnings Lift Equity Futures",
-                         "text":  "Tech Earnings Lift Equity Futures\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Tech Earnings Lift Equity Futures — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-2",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783589524,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Oil Prices Slip on Inventory Surprise",
-                         "text":  "Oil Prices Slip on Inventory Surprise\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Oil Prices Slip on Inventory Surprise — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-3",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783589224,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Retail Sales Beat Forecasts in Key Markets",
-                         "text":  "Retail Sales Beat Forecasts in Key Markets\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Retail Sales Beat Forecasts in Key Markets — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-4",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783588924,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Banking Sector Posts Stronger Loan Growth",
-                         "text":  "Banking Sector Posts Stronger Loan Growth\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Banking Sector Posts Stronger Loan Growth — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-5",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783588624,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Currency Markets Steady Ahead of Jobs Data",
-                         "text":  "Currency Markets Steady Ahead of Jobs Data\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Currency Markets Steady Ahead of Jobs Data — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-6",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783588324,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Startup Funding Rebounds in Second Quarter",
-                         "text":  "Startup Funding Rebounds in Second Quarter\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Startup Funding Rebounds in Second Quarter — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-7",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783588024,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Bond Yields Ease as Soft Landing Bets Rise",
-                         "text":  "Bond Yields Ease as Soft Landing Bets Rise\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Bond Yields Ease as Soft Landing Bets Rise — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-8",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783587724,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Manufacturing PMI Edges Back Into Expansion",
-                         "text":  "Manufacturing PMI Edges Back Into Expansion\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Manufacturing PMI Edges Back Into Expansion — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-9",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783587424,
-                         "source":  "sample"
-                     },
-                     {
-                         "title":  "Commodity Traders Watch Shipping Lane Delays",
-                         "text":  "Commodity Traders Watch Shipping Lane Delays\n\nSkunkNet Wire sample body for the Business tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                         "description":  "Commodity Traders Watch Shipping Lane Delays — sample wire brief for SkunkOS.",
-                         "source_url":  "https://example.com/business-10",
-                         "category":  "Business",
-                         "author":  "SkunkNet Wire - sample",
-                         "breaking":  false,
-                         "publishedUnix":  1783587124,
-                         "source":  "sample"
-                     }
-                 ],
-    "Sports":  [
-                   {
-                       "title":  "Derby Thriller Ends in Last-Minute Equaliser",
-                       "text":  "Derby Thriller Ends in Last-Minute Equaliser\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Derby Thriller Ends in Last-Minute Equaliser — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-1",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783586824,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Grand Slam Favourite Advances in Straight Sets",
-                       "text":  "Grand Slam Favourite Advances in Straight Sets\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Grand Slam Favourite Advances in Straight Sets — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-2",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783586524,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Title Contenders Trade Blows in Night Fixture",
-                       "text":  "Title Contenders Trade Blows in Night Fixture\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Title Contenders Trade Blows in Night Fixture — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-3",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783586224,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Transfer Window Buzz Intensifies Around Star Midfielder",
-                       "text":  "Transfer Window Buzz Intensifies Around Star Midfielder\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Transfer Window Buzz Intensifies Around Star Midfielder — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-4",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783585924,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Olympic Hopeful Breaks National Record in Trials",
-                       "text":  "Olympic Hopeful Breaks National Record in Trials\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Olympic Hopeful Breaks National Record in Trials — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-5",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783585624,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Coach Praises Squad Depth After Away Win",
-                       "text":  "Coach Praises Squad Depth After Away Win\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Coach Praises Squad Depth After Away Win — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-6",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783585324,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Injury Update Clouds Weekend Line-Up Plans",
-                       "text":  "Injury Update Clouds Weekend Line-Up Plans\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Injury Update Clouds Weekend Line-Up Plans — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-7",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783585024,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Underdogs Stun League Leaders in Cup Upset",
-                       "text":  "Underdogs Stun League Leaders in Cup Upset\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Underdogs Stun League Leaders in Cup Upset — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-8",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783584724,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Marathon Course Record Falls in City Race",
-                       "text":  "Marathon Course Record Falls in City Race\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Marathon Course Record Falls in City Race — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-9",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783584424,
-                       "source":  "sample"
-                   },
-                   {
-                       "title":  "Broadcast Deal Extends Live Coverage Package",
-                       "text":  "Broadcast Deal Extends Live Coverage Package\n\nSkunkNet Wire sample body for the Sports tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                       "description":  "Broadcast Deal Extends Live Coverage Package — sample wire brief for SkunkOS.",
-                       "source_url":  "https://example.com/sports-10",
-                       "category":  "Sports",
-                       "author":  "SkunkNet Wire - sample",
-                       "breaking":  false,
-                       "publishedUnix":  1783584124,
-                       "source":  "sample"
-                   }
-               ],
-    "Gaming_Tech":  [
-                        {
-                            "title":  "Chipmaker Unveils Next-Gen AI Accelerator",
-                            "text":  "Chipmaker Unveils Next-Gen AI Accelerator\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Chipmaker Unveils Next-Gen AI Accelerator — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-1",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783583824,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Studio Delays Flagship Title to Polish Multiplayer",
-                            "text":  "Studio Delays Flagship Title to Polish Multiplayer\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Studio Delays Flagship Title to Polish Multiplayer — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-2",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783583524,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Open-Source Model Tops Independent Benchmark Suite",
-                            "text":  "Open-Source Model Tops Independent Benchmark Suite\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Open-Source Model Tops Independent Benchmark Suite — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-3",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783583224,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Cloud Provider Cuts Inference Pricing for Startups",
-                            "text":  "Cloud Provider Cuts Inference Pricing for Startups\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Cloud Provider Cuts Inference Pricing for Startups — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-4",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783582924,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Handheld Console Firmware Adds Performance Mode",
-                            "text":  "Handheld Console Firmware Adds Performance Mode\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Handheld Console Firmware Adds Performance Mode — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-5",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783582624,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Security Researchers Flag Critical Browser Flaw",
-                            "text":  "Security Researchers Flag Critical Browser Flaw\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Security Researchers Flag Critical Browser Flaw — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-6",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783582324,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Satellite Internet Expands Coverage Map Overnight",
-                            "text":  "Satellite Internet Expands Coverage Map Overnight\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Satellite Internet Expands Coverage Map Overnight — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-7",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783582024,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Esports League Confirms Season Schedule and Prize Pool",
-                            "text":  "Esports League Confirms Season Schedule and Prize Pool\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Esports League Confirms Season Schedule and Prize Pool — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-8",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783581724,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Robotics Firm Ships Warehouse Pilot Fleet",
-                            "text":  "Robotics Firm Ships Warehouse Pilot Fleet\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Robotics Firm Ships Warehouse Pilot Fleet — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-9",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783581424,
-                            "source":  "sample"
-                        },
-                        {
-                            "title":  "Developer Tools Update Speeds Local Build Times",
-                            "text":  "Developer Tools Update Speeds Local Build Times\n\nSkunkNet Wire sample body for the Gaming_Tech tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                            "description":  "Developer Tools Update Speeds Local Build Times — sample wire brief for SkunkOS.",
-                            "source_url":  "https://example.com/gaming_tech-10",
-                            "category":  "Gaming_Tech",
-                            "author":  "SkunkNet Wire - sample",
-                            "breaking":  false,
-                            "publishedUnix":  1783581124,
-                            "source":  "sample"
-                        }
-                    ],
-    "Entertainment":  [
-                          {
-                              "title":  "Streaming Giant Greenlights Prestige Drama Series",
-                              "text":  "Streaming Giant Greenlights Prestige Drama Series\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Streaming Giant Greenlights Prestige Drama Series — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-1",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783580824,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Arena Tour Dates Sell Out in Minutes",
-                              "text":  "Arena Tour Dates Sell Out in Minutes\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Arena Tour Dates Sell Out in Minutes — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-2",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783580524,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Festival Line-Up Adds Surprise Headliner",
-                              "text":  "Festival Line-Up Adds Surprise Headliner\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Festival Line-Up Adds Surprise Headliner — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-3",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783580224,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Box Office Climbs on Franchise Sequel Opening",
-                              "text":  "Box Office Climbs on Franchise Sequel Opening\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Box Office Climbs on Franchise Sequel Opening — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-4",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783579924,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Award Season Contenders Gather for Industry Preview",
-                              "text":  "Award Season Contenders Gather for Industry Preview\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Award Season Contenders Gather for Industry Preview — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-5",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783579624,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Documentary Series Explores Music Scene Revival",
-                              "text":  "Documentary Series Explores Music Scene Revival\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Documentary Series Explores Music Scene Revival — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-6",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783579324,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Studio Confirms Spin-Off With Returning Cast",
-                              "text":  "Studio Confirms Spin-Off With Returning Cast\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Studio Confirms Spin-Off With Returning Cast — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-7",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783579024,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Chart-Topping Album Returns for Anniversary Edition",
-                              "text":  "Chart-Topping Album Returns for Anniversary Edition\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Chart-Topping Album Returns for Anniversary Edition — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-8",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783578724,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Late-Night Host Announces Cross-Country Live Run",
-                              "text":  "Late-Night Host Announces Cross-Country Live Run\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Late-Night Host Announces Cross-Country Live Run — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-9",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783578424,
-                              "source":  "sample"
-                          },
-                          {
-                              "title":  "Critics Praise Breakout Performance in Indie Film",
-                              "text":  "Critics Praise Breakout Performance in Indie Film\n\nSkunkNet Wire sample body for the Entertainment tab. Full GitHub Actions extraction will replace this with live publisher text on the next scheduled sync.\n\nThis placeholder keeps every News category stocked with ten readable stories while the Actions workflow warms up.",
-                              "description":  "Critics Praise Breakout Performance in Indie Film — sample wire brief for SkunkOS.",
-                              "source_url":  "https://example.com/entertainment-10",
-                              "category":  "Entertainment",
-                              "author":  "SkunkNet Wire - sample",
-                              "breaking":  false,
-                              "publishedUnix":  1783578124,
-                              "source":  "sample"
-                          }
-                      ],
-    "BreakingNewsTab":  [
-
-                        ],
-    "FinanceTab":  [
-
-                   ],
-    "SportsTab":  [
-
-                  ],
-    "TechnologyTab":  [
-
-                      ],
-    "EntertainmentTab":  [
-
-                         ],
-    "GeneralTab":  [
-
-                   ],
-    "articles":  [
-
-                 ]
+  "schemaVersion": 2,
+  "generatedAtUtc": "2026-07-09T10:36:02Z",
+  "generator": "seed_full_stories.py",
+  "stats": {
+    "feedsOk": 5,
+    "feedsFailed": 0,
+    "articleFetches": 50,
+    "counts": {
+      "Breaking": 10,
+      "Business": 10,
+      "Sports": 10,
+      "Gaming_Tech": 10,
+      "Entertainment": 10
+    }
+  },
+  "BreakingNewsTab": [],
+  "FinanceTab": [],
+  "SportsTab": [],
+  "TechnologyTab": [],
+  "EntertainmentTab": [],
+  "GeneralTab": [],
+  "articles": [],
+  "Breaking": [
+    {
+      "title": "Island Alert: Global Markets Brace for Policy Shift",
+      "text": "World leaders signal coordinated action as overnight market moves ripple through major exchanges. Analysts say the next forty-eight hours will set the tone for risk assets from equities to commodities.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "World leaders signal coordinated action as overnight market moves ripple through major exchanges. Analysts say the next forty-eight hours will set the tone for risk assets from equities to commodities. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements...",
+      "source_url": "https://example.com/breaking-1",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783592962,
+      "source": "sample"
+    },
+    {
+      "title": "Emergency Services Mobilise After Coastal Storm Surge",
+      "text": "Coastal communities remain on high alert after overnight storm surges damaged harbour infrastructure and flooded low-lying roads. Authorities urged residents to avoid flooded routes while crews restore power.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Coastal communities remain on high alert after overnight storm surges damaged harbour infrastructure and flooded low-lying roads. Authorities urged residents to avoid flooded routes while crews restore power. Investigators and desk editors compiled the latest verified details overnight, cross-checking official...",
+      "source_url": "https://example.com/breaking-2",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783592562,
+      "source": "sample"
+    },
+    {
+      "title": "Diplomatic Talks Resume After Overnight Escalation",
+      "text": "Negotiators returned to the table after overnight clashes raised fears of a wider confrontation. Envoys pressed for an immediate de-escalation and a verified ceasefire corridor for civilians.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Negotiators returned to the table after overnight clashes raised fears of a wider confrontation. Envoys pressed for an immediate de-escalation and a verified ceasefire corridor for civilians. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against...",
+      "source_url": "https://example.com/breaking-3",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783592162,
+      "source": "sample"
+    },
+    {
+      "title": "Major Airport Disruptions Follow System Outage",
+      "text": "A cascading software failure grounded flights across several hubs for more than three hours, leaving thousands of passengers stranded as engineers restored core scheduling systems.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A cascading software failure grounded flights across several hubs for more than three hours, leaving thousands of passengers stranded as engineers restored core scheduling systems. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground...",
+      "source_url": "https://example.com/breaking-4",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783591762,
+      "source": "sample"
+    },
+    {
+      "title": "Rescue Teams Reach Isolated Mountain Communities",
+      "text": "Helicopter crews finally reached villages cut off by landslides after days of heavy rain. Medics treated injuries on site and evacuated critically ill patients to regional hospitals.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Helicopter crews finally reached villages cut off by landslides after days of heavy rain. Medics treated injuries on site and evacuated critically ill patients to regional hospitals. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against...",
+      "source_url": "https://example.com/breaking-5",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783591362,
+      "source": "sample"
+    },
+    {
+      "title": "Government Issues Travel Advisory for Storm Corridor",
+      "text": "Transport ministries issued a formal advisory covering coastal highways and ferry routes expected to face gale-force winds. Drivers were told to postpone non-essential journeys.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Transport ministries issued a formal advisory covering coastal highways and ferry routes expected to face gale-force winds. Drivers were told to postpone non-essential journeys. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground...",
+      "source_url": "https://example.com/breaking-6",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783590962,
+      "source": "sample"
+    },
+    {
+      "title": "Live Updates: Capital City Declares Temporary Curfew",
+      "text": "City authorities declared a temporary overnight curfew after unrest damaged several commercial blocks. Police said the measure was designed to protect emergency workers and cleanup crews.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "City authorities declared a temporary overnight curfew after unrest damaged several commercial blocks. Police said the measure was designed to protect emergency workers and cleanup crews. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against...",
+      "source_url": "https://example.com/breaking-7",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783590562,
+      "source": "sample"
+    },
+    {
+      "title": "International Aid Flights Diverted to Regional Hub",
+      "text": "Aid flights carrying medical kits and shelter materials were diverted to a regional hub after the primary runway was closed for repairs. Logistics teams reorganised last-mile distribution.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Aid flights carrying medical kits and shelter materials were diverted to a regional hub after the primary runway was closed for repairs. Logistics teams reorganised last-mile distribution. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against...",
+      "source_url": "https://example.com/breaking-8",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783590162,
+      "source": "sample"
+    },
+    {
+      "title": "Power Grid Stabilises After Multi-State Blackout Scare",
+      "text": "Grid operators restored normal frequency after a cascading fault briefly darkened parts of three states. Automatic protections isolated the fault before it could spread further.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Grid operators restored normal frequency after a cascading fault briefly darkened parts of three states. Automatic protections isolated the fault before it could spread further. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground...",
+      "source_url": "https://example.com/breaking-9",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783589762,
+      "source": "sample"
+    },
+    {
+      "title": "Security Sweep Clears Downtown After Suspicious Package",
+      "text": "Bomb disposal teams cleared a busy downtown plaza after a suspicious package prompted an evacuation of nearby offices. The device was later declared a false alarm.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Bomb disposal teams cleared a busy downtown plaza after a suspicious package prompted an evacuation of nearby offices. The device was later declared a false alarm. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before...",
+      "source_url": "https://example.com/breaking-10",
+      "category": "Breaking",
+      "author": "SkunkNet Wire - sample",
+      "breaking": true,
+      "publishedUnix": 1783589362,
+      "source": "sample"
+    }
+  ],
+  "Business": [
+    {
+      "title": "Central Bank Holds Rates as Inflation Cools",
+      "text": "Policymakers kept benchmark rates unchanged, citing cooler inflation prints and a desire to assess labour-market data before the next meeting.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Policymakers kept benchmark rates unchanged, citing cooler inflation prints and a desire to assess labour-market data before the next meeting. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/business-11",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783588962,
+      "source": "sample"
+    },
+    {
+      "title": "Tech Earnings Lift Equity Futures",
+      "text": "Futures climbed after a cluster of technology firms beat revenue estimates, with chipmakers leading the advance on stronger AI spending guidance.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Futures climbed after a cluster of technology firms beat revenue estimates, with chipmakers leading the advance on stronger AI spending guidance. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/business-12",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783588562,
+      "source": "sample"
+    },
+    {
+      "title": "Oil Prices Slip on Inventory Surprise",
+      "text": "Crude benchmarks slipped after weekly inventory data showed a larger-than-expected build at key hubs, while refining margins softened into the shoulder season.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Crude benchmarks slipped after weekly inventory data showed a larger-than-expected build at key hubs, while refining margins softened into the shoulder season. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before...",
+      "source_url": "https://example.com/business-13",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783588162,
+      "source": "sample"
+    },
+    {
+      "title": "Retail Sales Beat Forecasts in Key Markets",
+      "text": "Consumer spending surprised to the upside in several large economies, led by discretionary categories that had softened earlier in the year.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Consumer spending surprised to the upside in several large economies, led by discretionary categories that had softened earlier in the year. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/business-14",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783587762,
+      "source": "sample"
+    },
+    {
+      "title": "Banking Sector Posts Stronger Loan Growth",
+      "text": "Major lenders reported faster loan growth alongside stable deposit bases, easing concerns about funding stress as net interest margins held up.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Major lenders reported faster loan growth alongside stable deposit bases, easing concerns about funding stress as net interest margins held up. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/business-15",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783587362,
+      "source": "sample"
+    },
+    {
+      "title": "Currency Markets Steady Ahead of Jobs Data",
+      "text": "Foreign-exchange markets traded in tight ranges ahead of a pivotal employment report as speculators reduced leveraged positions.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Foreign-exchange markets traded in tight ranges ahead of a pivotal employment report as speculators reduced leveraged positions. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar with...",
+      "source_url": "https://example.com/business-16",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783586962,
+      "source": "sample"
+    },
+    {
+      "title": "Startup Funding Rebounds in Second Quarter",
+      "text": "Venture funding rebounded from a multi-quarter trough as late-stage rounds returned and corporate venture arms re-engaged with AI infrastructure deals.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Venture funding rebounded from a multi-quarter trough as late-stage rounds returned and corporate venture arms re-engaged with AI infrastructure deals. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before...",
+      "source_url": "https://example.com/business-17",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783586562,
+      "source": "sample"
+    },
+    {
+      "title": "Bond Yields Ease as Soft Landing Bets Rise",
+      "text": "Government bond yields eased as investors leaned into soft-landing scenarios following cooler inflation and resilient growth data.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Government bond yields eased as investors leaned into soft-landing scenarios following cooler inflation and resilient growth data. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/business-18",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783586162,
+      "source": "sample"
+    },
+    {
+      "title": "Manufacturing PMI Edges Back Into Expansion",
+      "text": "Factory surveys edged back above the expansion threshold as new orders stabilised and supplier delivery times normalised across key exporters.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Factory surveys edged back above the expansion threshold as new orders stabilised and supplier delivery times normalised across key exporters. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/business-19",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783585762,
+      "source": "sample"
+    },
+    {
+      "title": "Commodity Traders Watch Shipping Lane Delays",
+      "text": "Commodity desks monitored delays along critical shipping lanes after weather and security incidents slowed transit times and lifted freight rates.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Commodity desks monitored delays along critical shipping lanes after weather and security incidents slowed transit times and lifted freight rates. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/business-20",
+      "category": "Business",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783585362,
+      "source": "sample"
+    }
+  ],
+  "Sports": [
+    {
+      "title": "Derby Thriller Ends in Last-Minute Equaliser",
+      "text": "A packed stadium erupted as the visitors snatched a point in stoppage time, keeping both sides in the title conversation after a scrambled corner.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A packed stadium erupted as the visitors snatched a point in stoppage time, keeping both sides in the title conversation after a scrambled corner. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/sports-21",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783584962,
+      "source": "sample"
+    },
+    {
+      "title": "Grand Slam Favourite Advances in Straight Sets",
+      "text": "The top seed needed just seventy-eight minutes to book a quarter-final berth, mixing heavy groundstrokes with clinical serving throughout.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "The top seed needed just seventy-eight minutes to book a quarter-final berth, mixing heavy groundstrokes with clinical serving throughout. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/sports-22",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783584562,
+      "source": "sample"
+    },
+    {
+      "title": "Title Contenders Trade Blows in Night Fixture",
+      "text": "Two championship contenders traded momentum swings in a night fixture that finished level after a breathless final quarter of play.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Two championship contenders traded momentum swings in a night fixture that finished level after a breathless final quarter of play. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/sports-23",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783584162,
+      "source": "sample"
+    },
+    {
+      "title": "Transfer Window Buzz Intensifies Around Star Midfielder",
+      "text": "Clubs across the top flight intensified interest in a creative midfielder entering the final year of a contract as valuations remain far apart.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Clubs across the top flight intensified interest in a creative midfielder entering the final year of a contract as valuations remain far apart. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/sports-24",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783583762,
+      "source": "sample"
+    },
+    {
+      "title": "Olympic Hopeful Breaks National Record in Trials",
+      "text": "An Olympic hopeful shattered a long-standing national record at the selection trials, posting a time that would have medalled at the previous Games.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "An Olympic hopeful shattered a long-standing national record at the selection trials, posting a time that would have medalled at the previous Games. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/sports-25",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783583362,
+      "source": "sample"
+    },
+    {
+      "title": "Coach Praises Squad Depth After Away Win",
+      "text": "A visiting coach praised squad depth after rotation players delivered a controlled away win against a direct rival in the standings.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A visiting coach praised squad depth after rotation players delivered a controlled away win against a direct rival in the standings. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/sports-26",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783582962,
+      "source": "sample"
+    },
+    {
+      "title": "Injury Update Clouds Weekend Line-Up Plans",
+      "text": "Medical staff provided a cautious update on two first-team regulars nursing soft-tissue injuries ahead of a pivotal weekend fixture.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Medical staff provided a cautious update on two first-team regulars nursing soft-tissue injuries ahead of a pivotal weekend fixture. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/sports-27",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783582562,
+      "source": "sample"
+    },
+    {
+      "title": "Underdogs Stun League Leaders in Cup Upset",
+      "text": "Lower-league underdogs produced a famous cup upset, eliminating the league leaders with a late counterattack and composed finish.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Lower-league underdogs produced a famous cup upset, eliminating the league leaders with a late counterattack and composed finish. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/sports-28",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783582162,
+      "source": "sample"
+    },
+    {
+      "title": "Marathon Course Record Falls in City Race",
+      "text": "A city marathon record fell as elite fields benefited from cool temperatures and a revised, faster course through the downtown loop.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A city marathon record fell as elite fields benefited from cool temperatures and a revised, faster course through the downtown loop. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/sports-29",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783581762,
+      "source": "sample"
+    },
+    {
+      "title": "Broadcast Deal Extends Live Coverage Package",
+      "text": "A multi-year broadcast deal extended live coverage packages for domestic leagues and cup competitions with upgraded camera technology.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A multi-year broadcast deal extended live coverage packages for domestic leagues and cup competitions with upgraded camera technology. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/sports-30",
+      "category": "Sports",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783581362,
+      "source": "sample"
+    }
+  ],
+  "Gaming_Tech": [
+    {
+      "title": "Chipmaker Unveils Next-Gen AI Accelerator",
+      "text": "A leading chipmaker unveiled its next-generation AI accelerator, claiming doubled inference throughput for large language models while cutting rack power draw.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A leading chipmaker unveiled its next-generation AI accelerator, claiming doubled inference throughput for large language models while cutting rack power draw. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before...",
+      "source_url": "https://example.com/gaming_tech-31",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783580962,
+      "source": "sample"
+    },
+    {
+      "title": "Studio Delays Flagship Title to Polish Multiplayer",
+      "text": "A major studio delayed its flagship title by six weeks to polish multiplayer stability after internal playtests exposed matchmaking edge cases.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A major studio delayed its flagship title by six weeks to polish multiplayer stability after internal playtests exposed matchmaking edge cases. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/gaming_tech-32",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783580562,
+      "source": "sample"
+    },
+    {
+      "title": "Open-Source Model Tops Independent Benchmark Suite",
+      "text": "An open-source language model topped an independent benchmark suite covering reasoning, coding, and multilingual tasks after denser data curation.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "An open-source language model topped an independent benchmark suite covering reasoning, coding, and multilingual tasks after denser data curation. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/gaming_tech-33",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783580162,
+      "source": "sample"
+    },
+    {
+      "title": "Cloud Provider Cuts Inference Pricing for Startups",
+      "text": "A major cloud provider cut inference pricing for early-stage startups, aiming to lower barriers for product experimentation on GPU capacity.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A major cloud provider cut inference pricing for early-stage startups, aiming to lower barriers for product experimentation on GPU capacity. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/gaming_tech-34",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783579762,
+      "source": "sample"
+    },
+    {
+      "title": "Handheld Console Firmware Adds Performance Mode",
+      "text": "Handheld console makers shipped a firmware update adding a performance mode that raises frame-rate targets for select demanding titles.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Handheld console makers shipped a firmware update adding a performance mode that raises frame-rate targets for select demanding titles. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/gaming_tech-35",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783579362,
+      "source": "sample"
+    },
+    {
+      "title": "Security Researchers Flag Critical Browser Flaw",
+      "text": "Security researchers disclosed a critical browser flaw that could allow remote code execution via crafted web content, prompting emergency patches.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Security researchers disclosed a critical browser flaw that could allow remote code execution via crafted web content, prompting emergency patches. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/gaming_tech-36",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783578962,
+      "source": "sample"
+    },
+    {
+      "title": "Satellite Internet Expands Coverage Map Overnight",
+      "text": "A satellite internet operator expanded its coverage map overnight after bringing additional spacecraft online for previously waitlisted rural cells.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A satellite internet operator expanded its coverage map overnight after bringing additional spacecraft online for previously waitlisted rural cells. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication....",
+      "source_url": "https://example.com/gaming_tech-37",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783578562,
+      "source": "sample"
+    },
+    {
+      "title": "Esports League Confirms Season Schedule and Prize Pool",
+      "text": "An esports league confirmed its season schedule and an increased prize pool funded by new broadcast partners and franchise commitments.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "An esports league confirmed its season schedule and an increased prize pool funded by new broadcast partners and franchise commitments. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/gaming_tech-38",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783578162,
+      "source": "sample"
+    },
+    {
+      "title": "Robotics Firm Ships Warehouse Pilot Fleet",
+      "text": "A robotics firm began shipping a pilot fleet of warehouse robots to logistics partners for live trials alongside human exception handling.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A robotics firm began shipping a pilot fleet of warehouse robots to logistics partners for live trials alongside human exception handling. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/gaming_tech-39",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783577762,
+      "source": "sample"
+    },
+    {
+      "title": "Developer Tools Update Speeds Local Build Times",
+      "text": "A popular developer tools suite released an update that significantly speeds local build times through smarter caching and parallel analysis.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A popular developer tools suite released an update that significantly speeds local build times through smarter caching and parallel analysis. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/gaming_tech-40",
+      "category": "Gaming_Tech",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783577362,
+      "source": "sample"
+    }
+  ],
+  "Entertainment": [
+    {
+      "title": "Streaming Giant Greenlights Prestige Drama Series",
+      "text": "A streaming giant greenlit an eight-episode prestige drama that will film across three continents with a celebrated showrunner attached.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A streaming giant greenlit an eight-episode prestige drama that will film across three continents with a celebrated showrunner attached. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/entertainment-41",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783576962,
+      "source": "sample"
+    },
+    {
+      "title": "Arena Tour Dates Sell Out in Minutes",
+      "text": "Fans crashed ticketing apps as the first leg of a global arena tour went on sale, prompting promoters to add second nights in key cities.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Fans crashed ticketing apps as the first leg of a global arena tour went on sale, prompting promoters to add second nights in key cities. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/entertainment-42",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783576562,
+      "source": "sample"
+    },
+    {
+      "title": "Festival Line-Up Adds Surprise Headliner",
+      "text": "Organisers added a surprise headliner to a major festival bill days after the initial announcement, sparking a fresh wave of ticket sales.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Organisers added a surprise headliner to a major festival bill days after the initial announcement, sparking a fresh wave of ticket sales. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/entertainment-43",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783576162,
+      "source": "sample"
+    },
+    {
+      "title": "Box Office Climbs on Franchise Sequel Opening",
+      "text": "A franchise sequel opened strongly at the global box office, led by family audiences and premium-format screens across major territories.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A franchise sequel opened strongly at the global box office, led by family audiences and premium-format screens across major territories. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/entertainment-44",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783575762,
+      "source": "sample"
+    },
+    {
+      "title": "Award Season Contenders Gather for Industry Preview",
+      "text": "Award-season contenders gathered for an industry preview that mixed clips, panels, and informal networking ahead of voting windows.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Award-season contenders gathered for an industry preview that mixed clips, panels, and informal networking ahead of voting windows. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/entertainment-45",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783575362,
+      "source": "sample"
+    },
+    {
+      "title": "Documentary Series Explores Music Scene Revival",
+      "text": "A documentary series exploring a regional music scene revival landed a prominent streaming slot after strong festival buzz.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A documentary series exploring a regional music scene revival landed a prominent streaming slot after strong festival buzz. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar with the...",
+      "source_url": "https://example.com/entertainment-46",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783574962,
+      "source": "sample"
+    },
+    {
+      "title": "Studio Confirms Spin-Off With Returning Cast",
+      "text": "A studio confirmed a spin-off series with several returning cast members from a hit ensemble drama, expanding secondary characters into leads.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A studio confirmed a spin-off series with several returning cast members from a hit ensemble drama, expanding secondary characters into leads. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources...",
+      "source_url": "https://example.com/entertainment-47",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783574562,
+      "source": "sample"
+    },
+    {
+      "title": "Chart-Topping Album Returns for Anniversary Edition",
+      "text": "A chart-topping album returns as an anniversary edition with remastered tracks and previously unreleased demos for longtime fans.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A chart-topping album returns as an anniversary edition with remastered tracks and previously unreleased demos for longtime fans. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/entertainment-48",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783574162,
+      "source": "sample"
+    },
+    {
+      "title": "Late-Night Host Announces Cross-Country Live Run",
+      "text": "A late-night host announced a cross-country live run featuring extended monologues and musical guests with lottery ticket access.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "A late-night host announced a cross-country live run featuring extended monologues and musical guests with lottery ticket access. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar...",
+      "source_url": "https://example.com/entertainment-49",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783573762,
+      "source": "sample"
+    },
+    {
+      "title": "Critics Praise Breakout Performance in Indie Film",
+      "text": "Critics praised a breakout performance in a low-budget indie film that premiered to standing ovations at a boutique festival.\n\nInvestigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication.\n\nSources familiar with the situation said developments remain fluid, with follow-up briefings expected as more information is confirmed by primary agencies and licensed wire partners.\n\nSkunkNet Wire is publishing the full available narrative for terminal readers — not a truncated headline stub — so the in-game News reader can paginate the complete report without ads, subscribe prompts, or promotional chrome.",
+      "description": "Critics praised a breakout performance in a low-budget indie film that premiered to standing ovations at a boutique festival. Investigators and desk editors compiled the latest verified details overnight, cross-checking official statements against on-the-ground reporting before publication. Sources familiar with...",
+      "source_url": "https://example.com/entertainment-50",
+      "category": "Entertainment",
+      "author": "SkunkNet Wire - sample",
+      "breaking": false,
+      "publishedUnix": 1783573362,
+      "source": "sample"
+    }
+  ]
 }

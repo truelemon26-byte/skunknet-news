@@ -151,13 +151,167 @@ def newspaper_config() -> NewspaperConfig:
     return cfg
 
 
-def clean_text(s: str | None, limit: int = 12000) -> str:
+# Minimum full-story length — reject one-line headlines / RSS stubs.
+MIN_FULL_STORY_CHARS = 900
+MIN_FULL_STORY_PARAS = 3
+# Keep long uncut reporting (Rust UI paginates the reader).
+MAX_STORY_CHARS = 28000
+
+# Ad / promo / chrome lines to drop from extracted bodies.
+AD_LINE_PATTERNS = [
+    re.compile(p, re.I)
+    for p in (
+        r"^advertisement\b",
+        r"^sponsored\b",
+        r"^promoted content\b",
+        r"^paid content\b",
+        r"^partner content\b",
+        r"^subscribe\b",
+        r"^sign up\b",
+        r"^newsletter\b",
+        r"^create a free account\b",
+        r"^already a subscriber\b",
+        r"^sign in to continue\b",
+        r"^continue reading\b",
+        r"^read more\b",
+        r"^related stories?\b",
+        r"^related articles?\b",
+        r"^you may also (like|love)\b",
+        r"^recommended for you\b",
+        r"^share this\b",
+        r"^share on\b",
+        r"^follow us\b",
+        r"^follow on\b",
+        r"^cookie\b",
+        r"^we use cookies\b",
+        r"^accept (all )?cookies\b",
+        r"^manage cookie",
+        r"^privacy policy\b",
+        r"^terms of (service|use)\b",
+        r"^all rights reserved\b",
+        r"^©\s*\d{4}",
+        r"^image (copyright|source|caption)\b",
+        r"^photo (by|credit)\b",
+        r"^getty images\b",
+        r"^media caption\b",
+        r"^watch:\b",
+        r"^listen:\b",
+        r"^skip to content\b",
+        r"^enable javascript\b",
+        r"^click here to\b",
+        r"^don't miss\b",
+        r"^top stories\b",
+        r"^in other news\b",
+        r"^also read\b",
+        r"^read next\b",
+        r"^more from\b",
+        r"^support (our|the) journalism\b",
+        r"^become a member\b",
+        r"^join (our|the) (club|membership)\b",
+        r"^download (our|the) app\b",
+        r"^open in app\b",
+        r"^listen to this article\b",
+        r"^this article is available\b",
+        r"^register for free\b",
+        r"^limited time offer\b",
+        r"^shop now\b",
+        r"^buy now\b",
+    )
+]
+
+AD_INLINE_CUT = re.compile(
+    r"(?is)\n\s*(?:Advertisement|Sponsored(?: content)?|Related (?:Stories|Articles|Content|News)|"
+    r"You (?:may|might) also (?:like|love)|Recommended for you|Top Stories|In other news|"
+    r"Read (?:next|more)|Also read|Share this|Follow us|Sign up for|Subscribe to our|"
+    r"Support (?:our|the) journalism|Become a member|Download (?:our|the) app|"
+    r"Open in app|Listen to this article|Register for free)\b[\s\S]*$"
+)
+
+
+def clean_title(s: str | None, limit: int = 240) -> str:
     if not s:
         return ""
     t = re.sub(r"\s+", " ", str(s)).strip()
     if len(t) > limit:
         t = t[: limit - 1].rsplit(" ", 1)[0] + "…"
     return t
+
+
+def is_ad_or_chrome_line(line: str) -> bool:
+    low = line.strip()
+    if not low:
+        return False
+    if any(rx.search(low) for rx in AD_LINE_PATTERNS):
+        return True
+    # Ultra-short nav crumbs
+    if len(low) < 18 and not low.endswith((".", "!", "?")):
+        return True
+    return False
+
+
+def clean_full_story(s: str | None, limit: int = MAX_STORY_CHARS) -> str:
+    """Preserve paragraph structure; strip ads/chrome; keep long uncut reporting."""
+    if not s:
+        return ""
+    t = str(s).replace("\r\n", "\n").replace("\r", "\n")
+    t = re.sub(r"[ \t]+\n", "\n", t)
+    t = AD_INLINE_CUT.sub("", t)
+
+    kept: list[str] = []
+    for raw in t.split("\n"):
+        line = re.sub(r"[ \t]{2,}", " ", raw).strip()
+        if not line:
+            if kept and kept[-1] != "":
+                kept.append("")
+            continue
+        if is_ad_or_chrome_line(line):
+            continue
+        kept.append(line)
+
+    # Collapse 3+ blank lines → one paragraph break
+    out: list[str] = []
+    blank = 0
+    for line in kept:
+        if line == "":
+            blank += 1
+            if blank <= 1:
+                out.append("")
+            continue
+        blank = 0
+        out.append(line)
+
+    body = "\n".join(out).strip()
+    body = re.sub(r"\n{3,}", "\n\n", body)
+    if len(body) > limit:
+        # Prefer cutting on a paragraph boundary
+        cut = body.rfind("\n\n", 0, limit)
+        if cut < limit // 2:
+            cut = body.rfind(". ", 0, limit)
+            body = (body[: cut + 1] if cut > limit // 2 else body[:limit]).rstrip() + "…"
+        else:
+            body = body[:cut].rstrip()
+    return body
+
+
+def story_quality_ok(body: str) -> bool:
+    if not body or len(body) < MIN_FULL_STORY_CHARS:
+        return False
+    paras = [p for p in re.split(r"\n\s*\n", body) if p.strip()]
+    if len(paras) < MIN_FULL_STORY_PARAS and len(body) < 1600:
+        return False
+    # Reject pure headline stubs (one short sentence)
+    sentences = re.split(r"(?<=[.!?])\s+", body.strip())
+    if len(sentences) < 4 and len(body) < 1400:
+        return False
+    return True
+
+
+def make_description(body: str, limit: int = 320) -> str:
+    flat = re.sub(r"\s+", " ", body).strip()
+    if len(flat) <= limit:
+        return flat
+    cut = flat.rfind(" ", 0, limit - 3)
+    return (flat[:cut] if cut > 80 else flat[: limit - 3]).rstrip() + "..."
 
 
 def host_of(url: str) -> str:
@@ -242,8 +396,10 @@ def extract_article(url: str, cfg: NewspaperConfig) -> Article | None:
         except Exception:
             # Keywords optional — title/text still usable.
             pass
-        if not art.title or not (art.text and len(art.text.strip()) > 80):
+        body = clean_full_story(art.text or "")
+        if not art.title or not story_quality_ok(body):
             return None
+        art.text = body
         return art
     except Exception:
         return None
@@ -261,15 +417,14 @@ def build_payload_article(
     tab: str,
     published_unix: int,
     source_name: str,
-) -> dict[str, Any]:
-    body = clean_text(text, 12000)
-    desc = body
-    if len(desc) > 320:
-        desc = desc[:317].rsplit(" ", 1)[0] + "..."
+) -> dict[str, Any] | None:
+    body = clean_full_story(text)
+    if not story_quality_ok(body):
+        return None
     return {
-        "title": clean_text(title, 240),
+        "title": clean_title(title, 240),
         "text": body,
-        "description": desc,
+        "description": make_description(body),
         "source_url": url,
         "category": tab,
         "author": f"SkunkNet Wire - {source_name}",
@@ -325,7 +480,7 @@ def run() -> int:
             link = (entry.get("link") or "").strip()
             if not link.startswith("http"):
                 continue
-            title_hint = clean_text(entry.get("title") or "", 240)
+            title_hint = clean_title(entry.get("title") or "", 240)
             fp = article_fingerprint(title_hint, link)
             if fp in seen:
                 continue
@@ -339,37 +494,15 @@ def run() -> int:
             fetches += 1
             art = extract_article(link, cfg)
             if art is None:
-                # Fallback: RSS summary only (still better than empty tab).
-                summary = clean_text(
-                    entry.get("summary") or entry.get("description") or title_hint,
-                    2000,
-                )
-                if len(summary) < 40:
-                    continue
-                tags = [t.get("term", "") for t in entry.get("tags", []) if isinstance(t, dict)]
-                tab = classify_tab(title_hint, summary, [], tags, hint)
-                if len(tabs[tab]) >= MAX_PER_TAB:
-                    continue
-                seen.add(fp)
-                source = host_of(link)
-                tabs[tab].append(
-                    build_payload_article(
-                        title_hint or "Untitled",
-                        summary,
-                        link,
-                        tab,
-                        parse_published_unix(entry, None),
-                        source,
-                    )
-                )
-                print(f"  + RSS-only → {tab}: {title_hint[:70]}", flush=True)
+                # Never publish one-line RSS stubs — only full extracted stories.
+                print(f"  - skip (no full story): {title_hint[:70]}", flush=True)
                 continue
 
-            title = clean_text(art.title, 240)
-            text = clean_text(art.text, 12000)
+            title = clean_title(art.title, 240)
+            text = art.text or ""
             keywords = [str(k).lower() for k in (art.keywords or [])]
             tags = [t.get("term", "") for t in entry.get("tags", []) if isinstance(t, dict)]
-            summary = clean_text(entry.get("summary") or "", 500)
+            summary = clean_title(entry.get("summary") or "", 500)
             tab = classify_tab(title, summary + " " + text[:400], keywords, tags, hint)
             if len(tabs[tab]) >= MAX_PER_TAB:
                 # Try to place into feed hint if different and has room.
@@ -381,19 +514,20 @@ def run() -> int:
             fp2 = article_fingerprint(title, link)
             if fp2 in seen:
                 continue
-            seen.add(fp2)
-            source = host_of(getattr(art, "source_url", None) or link)
-            tabs[tab].append(
-                build_payload_article(
-                    title,
-                    text,
-                    link,
-                    tab,
-                    parse_published_unix(entry, art),
-                    source,
-                )
+            item = build_payload_article(
+                title,
+                text,
+                link,
+                tab,
+                parse_published_unix(entry, art),
+                host_of(getattr(art, "source_url", None) or link),
             )
-            print(f"  + full → {tab}: {title[:70]}", flush=True)
+            if item is None:
+                print(f"  - skip (quality gate): {title[:70]}", flush=True)
+                continue
+            seen.add(fp2)
+            tabs[tab].append(item)
+            print(f"  + full ({len(item['text'])} chars) → {tab}: {title[:70]}", flush=True)
             time.sleep(0.35)  # polite pacing
 
     # Guide-style alias bags + canonical tabs.
